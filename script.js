@@ -24,6 +24,6 @@ function showCountriesList(resp) {
         $('<li>').text("Country:"+ country).addClass(country).appendTo(countriesList);
         $('<ul>').addClass(countryItems).appendTo(country);                     // osadzanie listy w liscie nie dziala ?
         $('<li>').text("Capitol:"+ item.capital).appendTo(countryItems);
-        $('<li>').text("Capitol:"+ item.region).appendTo(countryItems);
+        $('<li>').text("Region:"+ item.region).appendTo(countryItems);
     })
 }
